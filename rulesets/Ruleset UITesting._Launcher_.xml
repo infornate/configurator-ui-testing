@@ -1,60 +1,24 @@
 <Ruleset Namespace="UITesting" Name="*Launcher*" DefaultPageCaption="Test Options" EntityId="d67d79ba-ccf7-4498-90a4-33e3bf1d4ce9">
   <Tags />
   <ComponentAttributes>
-    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultAutoContinue" DataType="Number" Caption="Auto Continue" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="NumericTextBox" PrintCode="" />
-    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultLocked" DataType="Boolean" Caption="Locked" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="CheckBox" PrintCode="" />
-    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultRequired" DataType="Boolean" Caption="Required" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="CheckBox" PrintCode="" />
-    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultTooltip" DataType="String" Caption="Tooltip" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextArea" PrintCode="" />
-    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultHighlight" DataType="Boolean" Caption="Highlight" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="CheckBox" PrintCode="" />
-    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultInformationMessage" DataType="String" Caption="Information Message" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextArea" PrintCode="" />
-    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultTitle" DataType="String" Caption="Title" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
-    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultDescription" DataType="String" Caption="Description" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
-    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultShowTitle" DataType="Boolean" Caption="Show title" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="CheckBox" PrintCode="" />
-    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultShowLine" DataType="Boolean" Caption="Show line" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="CheckBox" PrintCode="" />
-    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultShowDescription" DataType="Boolean" Caption="Show description" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="CheckBox" PrintCode="" />
-    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="TestNamespace" DataType="String" Caption="Test namespace" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
-    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="TestRuleset" DataType="String" Caption="Test ruleset" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultAutoContinue" DataType="Number" DefaultValue="2" Caption="Auto Continue" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="NumericTextBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultLocked" DataType="Boolean" DefaultValue="False" Caption="Locked" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="CheckBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultRequired" DataType="Boolean" DefaultValue="False" Caption="Required" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="CheckBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultTooltip" DataType="String" DefaultValue="Tooltip" Caption="Tooltip" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextArea" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultHighlight" DataType="Boolean" DefaultValue="False" Caption="Highlight" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="CheckBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultInformationMessage" DataType="String" DefaultValue="Information message" Caption="Information Message" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextArea" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultTitle" DataType="String" DefaultValue="Title" Caption="Title" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultDescription" DataType="String" DefaultValue="Description" Caption="Description" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultShowTitle" DataType="Boolean" DefaultValue="True" Caption="Show title" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="CheckBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultShowLine" DataType="Boolean" DefaultValue="True" Caption="Show line" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="CheckBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultShowDescription" DataType="Boolean" DefaultValue="True" Caption="Show description" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="CheckBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="TestNamespace" DataType="String" DefaultValue="UITesting" Caption="Test namespace" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="TestRuleset" DataType="String" DefaultValue="Flow" Caption="Test ruleset" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
     <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="Pause" DataType="Boolean" DefaultValue="True" Caption="" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="CheckBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="DefaultVisible" DataType="Boolean" DefaultValue="True" Caption="" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="CheckBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="Dummy" DataType="String" Caption="" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
   </ComponentAttributes>
   <RuleTree Type="Interactive">
-    <Rule Namespace="UITesting" Ruleset="*Launcher*" ChildType="true" RuleTypeName="Variable" Caption="Default defaults" ConditionExpression="" Enabled="true">
-      <vars>
-        <var name="DefaultAutoContinue">
-          <value>=sys.AutoContinueMove</value>
-        </var>
-        <var name="DefaultHighlight">
-          <value>=false</value>
-        </var>
-        <var name="DefaultInformationMessage">
-          <value></value>
-        </var>
-        <var name="DefaultLocked">
-          <value>=false</value>
-        </var>
-        <var name="DefaultRequired">
-          <value>=false</value>
-        </var>
-        <var name="DefaultTooltip">
-          <value></value>
-        </var>
-        <var name="DefaultTitle">
-          <value>Title</value>
-        </var>
-        <var name="DefaultDescription">
-          <value>Description</value>
-        </var>
-      </vars>
-    </Rule>
-    <Rule Namespace="UITesting" Ruleset="*Launcher*" ChildType="true" RuleTypeName="Variable" Caption="Test ruleset defaults" ConditionExpression="" Enabled="true">
-      <vars>
-        <var name="TestNamespace">
-          <value>UITesting</value>
-        </var>
-        <var name="TestRuleset">
-          <value>Flow</value>
-        </var>
-      </vars>
-    </Rule>
     <Rule Namespace="UITesting" Ruleset="*Launcher*" ChildType="true" RuleTypeName="Screen" Caption="Screen - title options" ConditionExpression="" Enabled="true">
       <Screen Title="Screen - Title Options" ShowTitle="=True" ShowLine="=True" ShowDescription="=False" ShowExpandCollapse="=False" IsVisible="=True" Description="" PageBreakAfter="=False" PageCaption="" AppLink="" InfoLink="" ImageLink="" Pause="=False" PauseMessage="" PauseMessageStyle="" PauseTitle="" ScreenStyle="">
         <ScreenOption Sequence="1" Name="DefaultTitle" SelectOptionsImageLinkFieldExpression="ImageLink" />
@@ -82,6 +46,9 @@
         <var name="defaults[&quot;AutoContinue&quot;]">
           <value>=DefaultAutoContinue</value>
         </var>
+        <var name="defaults[&quot;Description&quot;]">
+          <value>=DefaultDescription</value>
+        </var>
         <var name="defaults[&quot;Highlight&quot;]">
           <value>=DefaultHighlight</value>
         </var>
@@ -94,23 +61,23 @@
         <var name="defaults[&quot;Required&quot;]">
           <value>=DefaultRequired</value>
         </var>
-        <var name="defaults[&quot;Tooltip&quot;]">
-          <value>=DefaultTooltip</value>
-        </var>
-        <var name="defaults[&quot;Title&quot;]">
-          <value>=DefaultTitle</value>
-        </var>
-        <var name="defaults[&quot;Description&quot;]">
-          <value>=DefaultDescription</value>
-        </var>
-        <var name="defaults[&quot;ShowTitle&quot;]">
-          <value>=DefaultShowTitle</value>
+        <var name="defaults[&quot;ShowDescription&quot;]">
+          <value>=DefaultShowDescription</value>
         </var>
         <var name="defaults[&quot;ShowLine&quot;]">
           <value>=DefaultShowLine</value>
         </var>
-        <var name="defaults[&quot;ShowDescription&quot;]">
-          <value>=DefaultShowDescription</value>
+        <var name="defaults[&quot;ShowTitle&quot;]">
+          <value>=DefaultShowTitle</value>
+        </var>
+        <var name="defaults[&quot;Title&quot;]">
+          <value>=DefaultTitle</value>
+        </var>
+        <var name="defaults[&quot;Tooltip&quot;]">
+          <value>=DefaultTooltip</value>
+        </var>
+        <var name="defaults[&quot;Visible&quot;]">
+          <value>=DefaultVisible</value>
         </var>
       </vars>
     </Rule>
@@ -127,8 +94,10 @@
         </vars>
       </Rule>
     </Rule>
-    <Rule Namespace="UITesting" Ruleset="*Launcher*" ChildType="true" RuleTypeName="Screen" Caption="Pause" ConditionExpression="" Enabled="true">
-      <Screen Title="" ShowTitle="=False" ShowLine="=False" ShowDescription="=False" ShowExpandCollapse="=False" IsVisible="=True" Description="" PageBreakAfter="=False" PageCaption="" AppLink="" InfoLink="" ImageLink="" Pause="=Pause" PauseMessage="" PauseMessageStyle="" PauseTitle="" ScreenStyle="" />
+    <Rule Namespace="UITesting" Ruleset="*Launcher*" ChildType="true" RuleTypeName="Screen" Caption="Pause" ConditionExpression="" Enabled="false">
+      <Screen Title="" ShowTitle="=False" ShowLine="=False" ShowDescription="=False" ShowExpandCollapse="=False" IsVisible="=True" Description="" PageBreakAfter="=False" PageCaption="" AppLink="" InfoLink="" ImageLink="" Pause="=Pause" PauseMessage="" PauseMessageStyle="" PauseTitle="" ScreenStyle="">
+        <ScreenOption Sequence="1" Name="Dummy" SelectOptionsImageLinkFieldExpression="ImageLink" />
+      </Screen>
       <Rule Namespace="UITesting" Ruleset="*Launcher*" ChildType="true" RuleTypeName="Variable" Caption="Disable pause" ConditionExpression="" Enabled="true">
         <vars>
           <var name="Pause">
@@ -138,7 +107,9 @@
       </Rule>
     </Rule>
     <Rule Namespace="UITesting" Ruleset="*Launcher*" ChildType="true" RuleTypeName="Screen" Caption="New page for test ruleset" ConditionExpression="" Enabled="true">
-      <Screen Title="" ShowTitle="=False" ShowLine="=False" ShowDescription="=False" ShowExpandCollapse="=False" IsVisible="=True" Description="" PageBreakAfter="=True" PageCaption="=TestPageCaption" AppLink="" InfoLink="" ImageLink="" Pause="=False" PauseMessage="" PauseMessageStyle="" PauseTitle="" ScreenStyle="" />
+      <Screen Title="" ShowTitle="=False" ShowLine="=False" ShowDescription="=False" ShowExpandCollapse="=False" IsVisible="=True" Description="" PageBreakAfter="=True" PageCaption="=TestPageCaption" AppLink="" InfoLink="" ImageLink="" Pause="=False" PauseMessage="" PauseMessageStyle="" PauseTitle="" ScreenStyle="">
+        <ScreenOption Sequence="1" Name="Dummy" SelectOptionsImageLinkFieldExpression="ImageLink" />
+      </Screen>
     </Rule>
     <Rule Namespace="UITesting" Ruleset="*Launcher*" ChildType="true" RuleTypeName="Create Component" Caption="Launch test" ConditionExpression="" Enabled="true">
       <cc namespace="=TestNamespace" type="D" rulesetid="=TestRuleset" componentid="TestComponent">

@@ -7,6 +7,9 @@
         <var name="DefaultAutoContinue">
           <value>=Defaults["AutoContinue"]</value>
         </var>
+        <var name="DefaultDescription">
+          <value>=Defaults["Description"]</value>
+        </var>
         <var name="DefaultHighlight">
           <value>=Defaults["Highlight"]</value>
         </var>
@@ -19,23 +22,23 @@
         <var name="DefaultRequired">
           <value>=Defaults["Required"]</value>
         </var>
-        <var name="DefaultTooltip">
-          <value>=Defaults["Tooltip"]</value>
-        </var>
-        <var name="DefaultTitle">
-          <value>=Defaults["Title"]</value>
-        </var>
-        <var name="DefaultDescription">
-          <value>=Defaults["Description"]</value>
-        </var>
-        <var name="DefaultShowTitle">
-          <value>=Defaults["ShowTitle"]</value>
+        <var name="DefaultShowDescription">
+          <value>=Defaults["ShowDescription"]</value>
         </var>
         <var name="DefaultShowLine">
           <value>=Defaults["ShowLine"]</value>
         </var>
-        <var name="DefaultShowDescription">
-          <value>=Defaults["ShowDescription"]</value>
+        <var name="DefaultShowTitle">
+          <value>=Defaults["ShowTitle"]</value>
+        </var>
+        <var name="DefaultTitle">
+          <value>=Defaults["Title"]</value>
+        </var>
+        <var name="DefaultTooltip">
+          <value>=Defaults["Tooltip"]</value>
+        </var>
+        <var name="DefaultVisible">
+          <value>=Defaults["Visible"]</value>
         </var>
       </vars>
     </Rule>

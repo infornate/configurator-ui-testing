@@ -2,43 +2,50 @@
   <Tags />
   <ComponentAttributes />
   <RuleTree Type="IncludeRuleset">
-    <Rule Namespace="UITesting" Ruleset="ExpandDefaultsCollection" ChildType="true" RuleTypeName="Variable" Caption="Default values" ConditionExpression="" Enabled="true">
+    <Rule Namespace="UITesting" Ruleset="ExpandDefaultsCollection" ChildType="true" RuleTypeName="Variable" Caption="Default screen values" ConditionExpression="" Enabled="true">
       <vars>
-        <var name="DefaultAutoContinue">
-          <value>=Defaults["AutoContinue"]</value>
+        <var name="ScreenDescription">
+          <value>=ScreenDefaults["Description"]</value>
         </var>
-        <var name="DefaultDescription">
-          <value>=Defaults["Description"]</value>
+        <var name="ScreenShowDescription">
+          <value>=ScreenDefaults["ShowDescription"]</value>
         </var>
-        <var name="DefaultHighlight">
-          <value>=Defaults["Highlight"]</value>
+        <var name="ScreenShowLine">
+          <value>=ScreenDefaults["ShowLine"]</value>
         </var>
-        <var name="DefaultInformationMessage">
-          <value>=Defaults["InformationMessage"]</value>
+        <var name="ScreenShowTitle">
+          <value>=ScreenDefaults["ShowTitle"]</value>
         </var>
-        <var name="DefaultLocked">
-          <value>=Defaults["Locked"]</value>
+        <var name="ScreenTitle">
+          <value>=ScreenDefaults["Title"]</value>
         </var>
-        <var name="DefaultRequired">
-          <value>=Defaults["Required"]</value>
+        <var name="ScreenVisible">
+          <value>=ScreenDefaults["Visible"]</value>
         </var>
-        <var name="DefaultShowDescription">
-          <value>=Defaults["ShowDescription"]</value>
+      </vars>
+    </Rule>
+    <Rule Namespace="UITesting" Ruleset="ExpandDefaultsCollection" ChildType="true" RuleTypeName="Variable" Caption="Default screen option values" ConditionExpression="" Enabled="true">
+      <vars>
+        <var name="ScreenOptionAutoContinue">
+          <value>=ScreenOptionDefaults["AutoContinue"]</value>
         </var>
-        <var name="DefaultShowLine">
-          <value>=Defaults["ShowLine"]</value>
+        <var name="ScreenOptionHighlight">
+          <value>=ScreenOptionDefaults["Highlight"]</value>
         </var>
-        <var name="DefaultShowTitle">
-          <value>=Defaults["ShowTitle"]</value>
+        <var name="ScreenOptionInformationMessage">
+          <value>=ScreenOptionDefaults["InformationMessage"]</value>
         </var>
-        <var name="DefaultTitle">
-          <value>=Defaults["Title"]</value>
+        <var name="ScreenOptionLocked">
+          <value>=ScreenOptionDefaults["Locked"]</value>
         </var>
-        <var name="DefaultTooltip">
-          <value>=Defaults["Tooltip"]</value>
+        <var name="ScreenOptionRequired">
+          <value>=ScreenOptionDefaults["Required"]</value>
         </var>
-        <var name="DefaultVisible">
-          <value>=Defaults["Visible"]</value>
+        <var name="ScreenOptionTooltip">
+          <value>=ScreenOptionDefaults["Tooltip"]</value>
+        </var>
+        <var name="ScreenOptionVisible">
+          <value>=ScreenOptionDefaults["Visible"]</value>
         </var>
       </vars>
     </Rule>

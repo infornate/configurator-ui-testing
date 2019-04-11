@@ -1,0 +1,27 @@
+<Ruleset Namespace="UITesting" Name="Flow" EntityId="48c2814e-f2d6-4dcb-a447-0e76bc21c1b4">
+  <Tags />
+  <ComponentAttributes>
+    <ComponentAttribute Namespace="UITesting" Ruleset="Flow" Name="Defaults" DataType="Collection" DefaultValue="" Caption="" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
+  </ComponentAttributes>
+  <RuleTree Type="Interactive">
+    <Rule Namespace="UITesting" Ruleset="Flow" ChildType="true" RuleTypeName="Include Ruleset" Caption="Expand defaults collection" ConditionExpression="" Enabled="true">
+      <RuleSet namespace="UITesting" type="SR" rulesetid="ExpandDefaultsCollection" />
+    </Rule>
+    <Rule Namespace="UITesting" Ruleset="Flow" ChildType="true" RuleTypeName="Screen" Caption="Screen 1" ConditionExpression="" Enabled="true">
+      <Screen Title="=DefaultTitle" ShowTitle="=DefaultShowTitle" ShowLine="=DefaultShowLine" ShowDescription="=DefaultShowDescription" ShowExpandCollapse="=False" IsVisible="=True" Description="=DefaultDescription" PageBreakAfter="=False" PageCaption="" AppLink="" InfoLink="" ImageLink="" Pause="=False" PauseMessage="" PauseMessageStyle="" PauseTitle="" ScreenStyle="">
+        <ScreenOption Sequence="1" Name="AA" Caption="AA" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="2" Name="BB" Caption="BB" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="3" Name="CC" Caption="CC" SelectOptionsImageLinkFieldExpression="ImageLink" />
+      </Screen>
+    </Rule>
+    <Rule Namespace="UITesting" Ruleset="Flow" ChildType="true" RuleTypeName="Screen" Caption="Screen 2" ConditionExpression="" Enabled="true">
+      <Screen Title="=DefaultTitle" ShowTitle="=DefaultShowTitle" ShowLine="=DefaultShowLine" ShowDescription="=DefaultShowDescription" ShowExpandCollapse="=False" IsVisible="=True" Description="=DefaultDescription" PageBreakAfter="=False" PageCaption="" AppLink="" InfoLink="" ImageLink="" Pause="=False" PauseMessage="" PauseMessageStyle="" PauseTitle="" ScreenStyle="">
+        <ScreenOption Sequence="1" Name="EE" Caption="EE" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="2" Name="FF" Caption="FF" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="3" Name="GG" Caption="GG" SelectOptionsImageLinkFieldExpression="ImageLink" />
+      </Screen>
+    </Rule>
+  </RuleTree>
+  <RuleTree Type="PostComponent" />
+  <RuleTree Type="PostConfiguration" />
+</Ruleset>

@@ -1,0 +1,43 @@
+<IncludeRuleset Namespace="UITesting" Name="ExpandDefaultsCollection" EntityId="6f32829f-8797-485f-89b0-27699a135105">
+  <Tags />
+  <ComponentAttributes />
+  <RuleTree Type="IncludeRuleset">
+    <Rule Namespace="UITesting" Ruleset="ExpandDefaultsCollection" ChildType="true" RuleTypeName="Variable" Caption="Default values" ConditionExpression="" Enabled="true">
+      <vars>
+        <var name="DefaultAutoContinue">
+          <value>=Defaults["AutoContinue"]</value>
+        </var>
+        <var name="DefaultHighlight">
+          <value>=Defaults["Highlight"]</value>
+        </var>
+        <var name="DefaultInformationMessage">
+          <value>=Defaults["InformationMessage"]</value>
+        </var>
+        <var name="DefaultLocked">
+          <value>=Defaults["Locked"]</value>
+        </var>
+        <var name="DefaultRequired">
+          <value>=Defaults["Required"]</value>
+        </var>
+        <var name="DefaultTooltip">
+          <value>=Defaults["Tooltip"]</value>
+        </var>
+        <var name="DefaultTitle">
+          <value>=Defaults["Title"]</value>
+        </var>
+        <var name="DefaultDescription">
+          <value>=Defaults["Description"]</value>
+        </var>
+        <var name="DefaultShowTitle">
+          <value>=Defaults["ShowTitle"]</value>
+        </var>
+        <var name="DefaultShowLine">
+          <value>=Defaults["ShowLine"]</value>
+        </var>
+        <var name="DefaultShowDescription">
+          <value>=Defaults["ShowDescription"]</value>
+        </var>
+      </vars>
+    </Rule>
+  </RuleTree>
+</IncludeRuleset>

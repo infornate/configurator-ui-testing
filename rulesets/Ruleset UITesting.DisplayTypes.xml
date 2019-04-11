@@ -1,0 +1,192 @@
+<Ruleset Namespace="UITesting" Name="DisplayTypes" EntityId="acabef33-64f0-416c-8c5d-70ee653c8e11">
+  <Tags />
+  <ComponentAttributes>
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="BooleanCheckbox" DataType="Boolean" Caption="Boolean Checkbox" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="CheckBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="BooleanRadioButtonVertical" DataType="Boolean" Caption="Radio Button Vertical" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="RadioButtonVertical" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="BooleanDropdown" DataType="Boolean" Caption="Boolean Dropdown" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="DropDown" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="BooleanTypeableDropdown" DataType="Boolean" Caption="Boolean Typeable Dropdown" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TypeableDropDown" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="BooleanRadioButtonHorizontal" DataType="Boolean" Caption="Radio Button Horizontal" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="RadioButtonHorizontal" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="NumberTextBox" DataType="Number" Caption="Number Text Box" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="NumericTextBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="NumberDropdown" DataType="Number" Caption="Number Dropdown" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="NumericDropDown" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="StringTextBox" DataType="String" Caption="String Text Box" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="StringTextArea" DataType="String" Caption="String Text Area" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextArea" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="StringDropdown" DataType="String" Caption="String Dropdown" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="110803PreviousValueOList" DisplayFormat="" DisplayPrecision="" DisplayType="DropDown" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="StringDropdownAndImage" DataType="String" Caption="String Dropdown and Image" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="110803PreviousValueOList" DisplayFormat="" DisplayPrecision="" DisplayType="DropDownAndImage" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="StringTypeableDropdown" DataType="String" Caption="String Typeable Dropdown" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="110803PreviousValueOList" DisplayFormat="" DisplayPrecision="" DisplayType="TypeableDropDown" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="StringTypeableDropdownAndImage" DataType="String" Caption="String Typeable Dropdown and Image" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="110803PreviousValueOList" DisplayFormat="" DisplayPrecision="" DisplayType="TypeableImageDropDown" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="StringRadioButtonHorizontal" DataType="String" Caption="String Radio Button Horizontal" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="110803PreviousValueOList" DisplayFormat="" DisplayPrecision="" DisplayType="RadioButtonHorizontal" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="StringRadioButtonVertical" DataType="String" Caption="String Radio Button Vertical" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="110803PreviousValueOList" DisplayFormat="" DisplayPrecision="" DisplayType="RadioButtonVertical" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="StringImageHorizontal" DataType="String" Caption="String Image Horizontal" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="110803PreviousValueOList" DisplayFormat="" DisplayPrecision="" DisplayType="ImageHorizontal" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="StringImageVertical" DataType="String" Caption="String Image Vertical" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="110803PreviousValueOList" DisplayFormat="" DisplayPrecision="" DisplayType="ImageVertical" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="StringImageAndTextHorizontal" DataType="String" Caption="String Image And Text Horizontal" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="110803PreviousValueOList" DisplayFormat="" DisplayPrecision="" DisplayType="ImageAndTextHorizontal" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="StringImageAndTextVertical" DataType="String" Caption="String Image And Text Vertical" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="110803PreviousValueOList" DisplayFormat="" DisplayPrecision="" DisplayType="ImageAndTextVertical" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="StringImageWrap" DataType="String" Caption="String Image Wrap" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="110803PreviousValueOList" DisplayFormat="" DisplayPrecision="" DisplayType="ImageWrap" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="StringImageAndTextWrap" DataType="String" Caption="String Image And Text Wrap" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="110803PreviousValueOList" DisplayFormat="" DisplayPrecision="" DisplayType="ImageAndTextWrap" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="DisplayTypes" Name="Defaults" DataType="Collection" DefaultValue="" Caption="" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
+  </ComponentAttributes>
+  <RuleTree Type="Interactive">
+    <Rule Namespace="UITesting" Ruleset="DisplayTypes" ChildType="true" RuleTypeName="Variable" Caption="Default values" ConditionExpression="" Enabled="true">
+      <vars>
+        <var name="DefaultAutoContinue">
+          <value>=Defaults["AutoContinue"]</value>
+        </var>
+        <var name="DefaultHighlight">
+          <value>=Defaults["Highlight"]</value>
+        </var>
+        <var name="DefaultInformationMessage">
+          <value>=Defaults["InformationMessage"]</value>
+        </var>
+        <var name="DefaultLocked">
+          <value>=Defaults["Locked"]</value>
+        </var>
+        <var name="DefaultRequired">
+          <value>=Defaults["Required"]</value>
+        </var>
+        <var name="DefaultTooltip">
+          <value>=Defaults["Tooltip"]</value>
+        </var>
+      </vars>
+    </Rule>
+    <Rule Namespace="UITesting" Ruleset="DisplayTypes" ChildType="true" RuleTypeName="Variable" Caption="Add options to collection" ConditionExpression="" Enabled="false">
+      <vars>
+        <var name="Options">
+          <value>=CreateSet()</value>
+        </var>
+        <var name="Options[&quot;BooleanCheckbox&quot;]">
+          <value>=BooleanCheckbox</value>
+        </var>
+        <var name="Options[&quot;BooleanDropdown&quot;]">
+          <value>=BooleanDropdown</value>
+        </var>
+        <var name="Options[&quot;BooleanRadioButtonHorizontal&quot;]">
+          <value>=BooleanRadioButtonHorizontal</value>
+        </var>
+        <var name="Options[&quot;BooleanRadioButtonVertical&quot;]">
+          <value>=BooleanRadioButtonVertical</value>
+        </var>
+        <var name="Options[&quot;BooleanTypeableDropdown&quot;]">
+          <value>=BooleanTypeableDropdown</value>
+        </var>
+        <var name="Options[&quot;NumberDropdown&quot;]">
+          <value>=NumberDropdown</value>
+        </var>
+        <var name="Options[&quot;NumberTextBox&quot;]">
+          <value>=NumberTextBox</value>
+        </var>
+        <var name="Options[&quot;StringDropdown&quot;]">
+          <value>=StringDropdown</value>
+        </var>
+        <var name="Options[&quot;StringDropdownAndImage&quot;]">
+          <value>=StringDropdownAndImage</value>
+        </var>
+        <var name="Options[&quot;StringImageAndTextHorizontal&quot;]">
+          <value>=StringImageAndTextHorizontal</value>
+        </var>
+        <var name="Options[&quot;StringImageAndTextVertical&quot;]">
+          <value>=StringImageAndTextVertical</value>
+        </var>
+        <var name="Options[&quot;StringImageAndTextWrap&quot;]">
+          <value>=StringImageAndTextWrap</value>
+        </var>
+        <var name="Options[&quot;StringImageHorizontal&quot;]">
+          <value>=StringImageHorizontal</value>
+        </var>
+        <var name="Options[&quot;StringImageVertical&quot;]">
+          <value>=StringImageVertical</value>
+        </var>
+        <var name="Options[&quot;StringImageWrap&quot;]">
+          <value>=StringImageWrap</value>
+        </var>
+        <var name="Options[&quot;StringRadioButtonHorizontal&quot;]">
+          <value>=StringRadioButtonHorizontal</value>
+        </var>
+        <var name="Options[&quot;StringRadioButtonVertical&quot;]">
+          <value>=StringRadioButtonVertical</value>
+        </var>
+        <var name="Options[&quot;StringTextArea&quot;]">
+          <value>=StringTextArea</value>
+        </var>
+        <var name="Options[&quot;StringTextBox&quot;]">
+          <value>=StringTextBox</value>
+        </var>
+        <var name="Options[&quot;StringTypeableDropdown&quot;]">
+          <value>=StringTypeableDropdown</value>
+        </var>
+        <var name="Options[&quot;StringTypeableDropdownAndImage&quot;]">
+          <value>=StringTypeableDropdownAndImage</value>
+        </var>
+      </vars>
+      <Rule Namespace="UITesting" Ruleset="DisplayTypes" ChildType="true" RuleTypeName="For Each" Caption="For each option" ConditionExpression="" Enabled="true">
+        <rule>
+          <property name="CollectionVariable" DisplayName="Collection Variable" ValueType="RValueExpression">=Options</property>
+          <property name="KeyVariable" DisplayName="Key Variable" ValueType="LValueExpression">OptionName</property>
+        </rule>
+        <Rule Namespace="UITesting" Ruleset="DisplayTypes" ChildType="true" RuleTypeName="Variable" Caption="Set option defaults" ConditionExpression="" Enabled="true">
+          <vars>
+            <var name="Option">
+              <value>=Options[OptionName]</value>
+            </var>
+            <var name="Option.Locked">
+              <value>=DefaultLocked</value>
+            </var>
+            <var name="Option.Required">
+              <value>=DefaultRequired</value>
+            </var>
+          </vars>
+        </Rule>
+      </Rule>
+    </Rule>
+    <Rule Namespace="UITesting" Ruleset="DisplayTypes" ChildType="true" RuleTypeName="Screen" Caption="All options" ConditionExpression="" Enabled="true">
+      <Screen Title="" ShowTitle="=False" ShowLine="=False" ShowDescription="=False" ShowExpandCollapse="=False" IsVisible="=True" Description="" PageBreakAfter="=False" PageCaption="" AppLink="" InfoLink="" ImageLink="" Pause="=False" PauseMessage="" PauseMessageStyle="" PauseTitle="" ScreenStyle="">
+        <ScreenOption Sequence="1" Name="BooleanCheckbox" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="2" Name="BooleanDropdown" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="3" Name="BooleanRadioButtonHorizontal" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="4" Name="BooleanRadioButtonVertical" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="5" Name="BooleanTypeableDropdown" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="6" Name="NumberDropdown" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="7" Name="NumberTextBox" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="8" Name="StringDropdown" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="9" Name="StringDropdownAndImage" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="10" Name="StringImageAndTextHorizontal" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="11" Name="StringImageAndTextVertical" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="12" Name="StringImageAndTextWrap" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="13" Name="StringImageHorizontal" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="14" Name="StringImageVertical" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="15" Name="StringImageWrap" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="16" Name="StringRadioButtonHorizontal" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="17" Name="StringRadioButtonVertical" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="18" Name="StringTextArea" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="19" Name="StringTextBox" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="20" Name="StringTypeableDropdown" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="21" Name="StringTypeableDropdownAndImage" Locked="=DefaultLocked" Tooltip="=DefaultTooltip" InfoMessage="=DefaultInformationMessage" Highlight="=DefaultHighlight" AutoContinue="=DefaultAutoContinue" IsRequired="=DefaultRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
+      </Screen>
+    </Rule>
+    <Rule Namespace="UITesting" Ruleset="DisplayTypes" ChildType="true" RuleTypeName="Screen" Caption="&lt; New Screen Rule &gt;" ConditionExpression="" Enabled="false">
+      <Screen Title="" ShowTitle="=False" ShowLine="=False" ShowDescription="=False" ShowExpandCollapse="=False" IsVisible="=True" Description="" PageBreakAfter="=False" PageCaption="" AppLink="" InfoLink="" ImageLink="" Pause="=False" PauseMessage="" PauseMessageStyle="" PauseTitle="" ScreenStyle="">
+        <ScreenOption Sequence="1" Name="BooleanCheckbox" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="2" Name="BooleanDropdown" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="3" Name="BooleanRadioButtonHorizontal" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="4" Name="BooleanRadioButtonVertical" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="5" Name="BooleanTypeableDropdown" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="6" Name="NumberDropdown" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="7" Name="NumberTextBox" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="8" Name="StringDropdown" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="9" Name="StringDropdownAndImage" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="10" Name="StringImageAndTextHorizontal" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="11" Name="StringImageAndTextVertical" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="12" Name="StringImageAndTextWrap" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="13" Name="StringImageHorizontal" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="14" Name="StringImageVertical" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="15" Name="StringImageWrap" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="16" Name="StringRadioButtonHorizontal" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="17" Name="StringRadioButtonVertical" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="18" Name="StringTextArea" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="19" Name="StringTextBox" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="20" Name="StringTypeableDropdown" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="21" Name="StringTypeableDropdownAndImage" SelectOptionsImageLinkFieldExpression="ImageLink" />
+      </Screen>
+    </Rule>
+  </RuleTree>
+  <RuleTree Type="PostComponent" />
+  <RuleTree Type="PostConfiguration" />
+</Ruleset>

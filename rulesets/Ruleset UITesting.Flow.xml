@@ -1,9 +1,6 @@
 <Ruleset Namespace="UITesting" Name="Flow" EntityId="48c2814e-f2d6-4dcb-a447-0e76bc21c1b4">
   <Tags />
-  <ComponentAttributes>
-    <ComponentAttribute Namespace="UITesting" Ruleset="Flow" Name="ScreenDefaults" DataType="Collection" DefaultValue="" Caption="" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
-    <ComponentAttribute Namespace="UITesting" Ruleset="Flow" Name="ScreenOptionDefaults" DataType="Collection" DefaultValue="" Caption="" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
-  </ComponentAttributes>
+  <ComponentAttributes />
   <RuleTree Type="Interactive">
     <Rule Namespace="UITesting" Ruleset="Flow" ChildType="true" RuleTypeName="Include Ruleset" Caption="Expand defaults collection" ConditionExpression="" Enabled="true">
       <RuleSet namespace="UITesting" type="SR" rulesetid="ExpandDefaultsCollection" />

@@ -30,31 +30,6 @@
         <ScreenOption Sequence="6" Name="ScreenVisible" SelectOptionsImageLinkFieldExpression="ImageLink" />
       </Screen>
     </Rule>
-    <Rule Namespace="UITesting" Ruleset="*Launcher*" ChildType="true" RuleTypeName="Variable" Caption="Create screen defaults collection" ConditionExpression="" Enabled="true">
-      <vars>
-        <var name="screenDefaults">
-          <value>=CreateSet()</value>
-        </var>
-        <var name="screenDefaults[&quot;Description&quot;]">
-          <value>=ScreenDescription</value>
-        </var>
-        <var name="screenDefaults[&quot;ShowDescription&quot;]">
-          <value>=ScreenShowDescription</value>
-        </var>
-        <var name="screenDefaults[&quot;ShowLine&quot;]">
-          <value>=ScreenShowLine</value>
-        </var>
-        <var name="screenDefaults[&quot;ShowTitle&quot;]">
-          <value>=ScreenShowTitle</value>
-        </var>
-        <var name="screenDefaults[&quot;Title&quot;]">
-          <value>=ScreenTitle</value>
-        </var>
-        <var name="screenDefaults[&quot;Visible&quot;]">
-          <value>=ScreenVisible</value>
-        </var>
-      </vars>
-    </Rule>
     <Rule Namespace="UITesting" Ruleset="*Launcher*" ChildType="true" RuleTypeName="Screen" Caption="Screen options - display options" ConditionExpression="" Enabled="true">
       <Screen Title="Screen Options - Display Options" ShowTitle="=True" ShowLine="=True" ShowDescription="=False" ShowExpandCollapse="=False" IsVisible="=True" Description="" PageBreakAfter="=False" PageCaption="" AppLink="" InfoLink="" ImageLink="" Pause="=False" PauseMessage="" PauseMessageStyle="" PauseTitle="" ScreenStyle="">
         <ScreenOption Sequence="1" Name="ScreenOptionAutoContinue" SelectOptionsImageLinkFieldExpression="ImageLink" />
@@ -65,34 +40,6 @@
         <ScreenOption Sequence="6" Name="ScreenOptionRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
         <ScreenOption Sequence="7" Name="ScreenOptionVisible" SelectOptionsImageLinkFieldExpression="ImageLink" />
       </Screen>
-    </Rule>
-    <Rule Namespace="UITesting" Ruleset="*Launcher*" ChildType="true" RuleTypeName="Variable" Caption="Create screen option defaults collection" ConditionExpression="" Enabled="true">
-      <vars>
-        <var name="screenOptionDefaults">
-          <value>=CreateSet()</value>
-        </var>
-        <var name="screenOptionDefaults[&quot;AutoContinue&quot;]">
-          <value>=ScreenOptionAutoContinue</value>
-        </var>
-        <var name="screenOptionDefaults[&quot;Highlight&quot;]">
-          <value>=ScreenOptionHighlight</value>
-        </var>
-        <var name="screenOptionDefaults[&quot;InformationMessage&quot;]">
-          <value>=ScreenOptionInformationMessage</value>
-        </var>
-        <var name="screenOptionDefaults[&quot;Locked&quot;]">
-          <value>=ScreenOptionLocked</value>
-        </var>
-        <var name="screenOptionDefaults[&quot;Required&quot;]">
-          <value>=ScreenOptionRequired</value>
-        </var>
-        <var name="screenOptionDefaults[&quot;Tooltip&quot;]">
-          <value>=ScreenOptionTooltip</value>
-        </var>
-        <var name="screenOptionDefaults[&quot;Visible&quot;]">
-          <value>=ScreenOptionVisible</value>
-        </var>
-      </vars>
     </Rule>
     <Rule Namespace="UITesting" Ruleset="*Launcher*" ChildType="true" RuleTypeName="Screen" Caption="Test ruleset" ConditionExpression="" Enabled="true">
       <Screen Title="Test Ruleset" ShowTitle="=True" ShowLine="=True" ShowDescription="=False" ShowExpandCollapse="=False" IsVisible="=True" Description="" PageBreakAfter="=False" PageCaption="" AppLink="" InfoLink="" ImageLink="" Pause="=False" PauseMessage="" PauseMessageStyle="" PauseTitle="" ScreenStyle="">
@@ -125,12 +72,7 @@
       </Screen>
     </Rule>
     <Rule Namespace="UITesting" Ruleset="*Launcher*" ChildType="true" RuleTypeName="Create Component" Caption="Launch test" ConditionExpression="" Enabled="true">
-      <cc namespace="=TestNamespace" type="D" rulesetid="=TestRuleset" componentid="TestComponent">
-        <Vars>
-          <Var Name="ScreenDefaults" Value="=screenDefaults" />
-          <Var Name="ScreenOptionDefaults" Value="=screenOptionDefaults" />
-        </Vars>
-      </cc>
+      <cc namespace="=TestNamespace" type="D" rulesetid="=TestRuleset" componentid="TestComponent" />
     </Rule>
   </RuleTree>
   <RuleTree Type="PostComponent" />

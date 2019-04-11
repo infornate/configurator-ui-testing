@@ -5,47 +5,47 @@
     <Rule Namespace="UITesting" Ruleset="ExpandDefaultsCollection" ChildType="true" RuleTypeName="Variable" Caption="Default screen values" ConditionExpression="" Enabled="true">
       <vars>
         <var name="ScreenDescription">
-          <value>=ScreenDefaults["Description"]</value>
+          <value>=root.ScreenDescription</value>
         </var>
         <var name="ScreenShowDescription">
-          <value>=ScreenDefaults["ShowDescription"]</value>
+          <value>=root.ScreenShowDescription</value>
         </var>
         <var name="ScreenShowLine">
-          <value>=ScreenDefaults["ShowLine"]</value>
+          <value>=root.ScreenShowLine</value>
         </var>
         <var name="ScreenShowTitle">
-          <value>=ScreenDefaults["ShowTitle"]</value>
+          <value>=root.ScreenShowTitle</value>
         </var>
         <var name="ScreenTitle">
-          <value>=ScreenDefaults["Title"]</value>
+          <value>=root.ScreenTitle</value>
         </var>
         <var name="ScreenVisible">
-          <value>=ScreenDefaults["Visible"]</value>
+          <value>=root.ScreenVisible</value>
         </var>
       </vars>
     </Rule>
     <Rule Namespace="UITesting" Ruleset="ExpandDefaultsCollection" ChildType="true" RuleTypeName="Variable" Caption="Default screen option values" ConditionExpression="" Enabled="true">
       <vars>
         <var name="ScreenOptionAutoContinue">
-          <value>=ScreenOptionDefaults["AutoContinue"]</value>
+          <value>=root.ScreenOptionAutoContinue</value>
         </var>
         <var name="ScreenOptionHighlight">
-          <value>=ScreenOptionDefaults["Highlight"]</value>
+          <value>=root.ScreenOptionHighlight</value>
         </var>
         <var name="ScreenOptionInformationMessage">
-          <value>=ScreenOptionDefaults["InformationMessage"]</value>
+          <value>=root.ScreenOptionInformationMessage</value>
         </var>
         <var name="ScreenOptionLocked">
-          <value>=ScreenOptionDefaults["Locked"]</value>
+          <value>=root.ScreenOptionLocked</value>
         </var>
         <var name="ScreenOptionRequired">
-          <value>=ScreenOptionDefaults["Required"]</value>
+          <value>=root.ScreenOptionRequired</value>
         </var>
         <var name="ScreenOptionTooltip">
-          <value>=ScreenOptionDefaults["Tooltip"]</value>
+          <value>=root.ScreenOptionTooltip</value>
         </var>
         <var name="ScreenOptionVisible">
-          <value>=ScreenOptionDefaults["Visible"]</value>
+          <value>=root.ScreenOptionVisible</value>
         </var>
       </vars>
     </Rule>

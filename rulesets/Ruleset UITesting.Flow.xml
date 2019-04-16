@@ -2,8 +2,8 @@
   <Tags />
   <ComponentAttributes />
   <RuleTree Type="Interactive">
-    <Rule Namespace="UITesting" Ruleset="Flow" ChildType="true" RuleTypeName="Include Ruleset" Caption="Expand defaults collection" ConditionExpression="" Enabled="true">
-      <RuleSet namespace="UITesting" type="SR" rulesetid="ExpandDefaultsCollection" />
+    <Rule Namespace="UITesting" Ruleset="Flow" ChildType="true" RuleTypeName="Include Ruleset" Caption="Use root screen and screen option values" ConditionExpression="" Enabled="true">
+      <RuleSet namespace="UITesting" type="SR" rulesetid="UseRootScreenAndScreenOptionValues" />
     </Rule>
     <Rule Namespace="UITesting" Ruleset="Flow" ChildType="true" RuleTypeName="Screen" Caption="Screen 1" ConditionExpression="" Enabled="true">
       <Screen Title="=ScreenTitle" ShowTitle="=ScreenShowTitle" ShowLine="=ScreenShowLine" ShowDescription="=ScreenShowDescription" ShowExpandCollapse="=False" IsVisible="=True" Description="=ScreenDescription" PageBreakAfter="=False" PageCaption="" AppLink="" InfoLink="" ImageLink="" Pause="=False" PauseMessage="" PauseMessageStyle="" PauseTitle="" ScreenStyle="">

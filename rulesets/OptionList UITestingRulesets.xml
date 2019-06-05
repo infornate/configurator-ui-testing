@@ -1,0 +1,31 @@
+<OptionList Name="UITestingRulesets">
+  <Property Name="Value" DataType="String" DefaultValue="" Sequence="1" />
+  <Property Name="Description" DataType="String" DefaultValue="" Sequence="2" />
+  <Property Name="Order" DataType="Number" DefaultValue="1" Sequence="3" />
+  <Property Name="Visible" DataType="Boolean" DefaultValue="True" Sequence="4" />
+  <Property Name="Locked" DataType="Boolean" DefaultValue="False" Sequence="5" />
+  <Property Name="Tooltip" DataType="String" DefaultValue="" Sequence="6" />
+  <Property Name="ImageLink" DataType="String" DefaultValue="" Sequence="7" />
+  <Property Name="Comments" DataType="String" DefaultValue="" Sequence="8" />
+  <Value>
+    <Property Name="Value">DisplayTypes</Property>
+    <Property Name="Description">Display Types</Property>
+    <Property Name="Order">1</Property>
+    <Property Name="Visible">True</Property>
+    <Property Name="Locked">False</Property>
+    <Property Name="Tooltip"></Property>
+    <Property Name="ImageLink"></Property>
+    <Property Name="Comments"></Property>
+  </Value>
+  <Value>
+    <Property Name="Value">Flow</Property>
+    <Property Name="Description">Flow</Property>
+    <Property Name="Order">1</Property>
+    <Property Name="Visible">True</Property>
+    <Property Name="Locked">False</Property>
+    <Property Name="Tooltip"></Property>
+    <Property Name="ImageLink"></Property>
+    <Property Name="Comments"></Property>
+  </Value>
+  <Tags />
+</OptionList>

@@ -19,6 +19,8 @@
     <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="Dummy" DataType="String" Caption="" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
     <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="ScreenOptionVisible" DataType="Boolean" DefaultValue="True" Caption="Visible" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="true" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="CheckBox" PrintCode="" />
     <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="ScreenOptionPlaceholder" DataType="String" DefaultValue="Placeholder" Caption="Placeholder" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="ScreenOptionInformationLink" DataType="String" Caption="Information link" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="*Launcher*" Name="ScreenOptionApplicationLink" DataType="String" Caption="Application link" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="1" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
   </ComponentAttributes>
   <RuleTree Type="Interactive">
     <Rule Namespace="UITesting" Ruleset="*Launcher*" ChildType="true" RuleTypeName="Screen" Caption="Screen - title options" ConditionExpression="" Enabled="true">
@@ -41,6 +43,8 @@
         <ScreenOption Sequence="6" Name="ScreenOptionRequired" SelectOptionsImageLinkFieldExpression="ImageLink" />
         <ScreenOption Sequence="7" Name="ScreenOptionVisible" SelectOptionsImageLinkFieldExpression="ImageLink" />
         <ScreenOption Sequence="8" Name="ScreenOptionPlaceholder" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="9" Name="ScreenOptionInformationLink" SelectOptionsImageLinkFieldExpression="ImageLink" />
+        <ScreenOption Sequence="10" Name="ScreenOptionApplicationLink" SelectOptionsImageLinkFieldExpression="ImageLink" />
       </Screen>
     </Rule>
     <Rule Namespace="UITesting" Ruleset="*Launcher*" ChildType="true" RuleTypeName="Screen" Caption="Test ruleset" ConditionExpression="" Enabled="true">

@@ -1,4 +1,4 @@
-<IncludeRuleset Namespace="UITesting" Name="UseRootScreenAndScreenOptionValues" EntityId="6f32829f-8797-485f-89b0-27699a135105">
+<IncludeRuleset Namespace="UITesting" Name="UseRootScreenAndScreenOptionValues" EntityId="39df74db-8752-45b1-9418-205913089ffd">
   <Tags />
   <ComponentAttributes />
   <RuleTree Type="IncludeRuleset">
@@ -49,6 +49,12 @@
         </var>
         <var name="ScreenOptionVisible">
           <value>=root.ScreenOptionVisible</value>
+        </var>
+        <var name="ScreenOptionInformationLink">
+          <value>=root.ScreenOptionInformationLink</value>
+        </var>
+        <var name="ScreenOptionApplicationLink">
+          <value>=root.ScreenOptionApplicationLink</value>
         </var>
       </vars>
     </Rule>

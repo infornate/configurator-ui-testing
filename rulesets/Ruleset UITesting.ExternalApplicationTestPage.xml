@@ -1,0 +1,75 @@
+<Ruleset Namespace="UITesting" Name="ExternalApplicationTestPage" EntityId="745aac1c-a487-412d-a92c-0f518fd6fb9a" IsStatelessEngineCompliant="true">
+  <Tags />
+  <ComponentAttributes>
+    <ComponentAttribute Namespace="UITesting" Ruleset="ExternalApplicationTestPage" Name="WaitForMessage" DataType="Boolean" DefaultValue="False" Caption="Wait for message?" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="CheckBox" PrintCode="" />
+    <ComponentAttribute Namespace="UITesting" Ruleset="ExternalApplicationTestPage" Name="Target" DataType="String" Caption="Target" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
+  </ComponentAttributes>
+  <RuleTree Type="Interactive">
+    <Rule Namespace="UITesting" Ruleset="ExternalApplicationTestPage" ChildType="true" RuleTypeName="Screen" Caption="Test options" ConditionExpression="" Enabled="true">
+      <Screen Title="Test Options" ShowTitle="=True" ShowLine="=False" ShowDescription="=False" ShowExpandCollapse="=False" IsVisible="=True" Description="" PageBreakAfter="=False" PageCaption="" AppLink="" InfoLink="" ImageLink="" Pause="=False" PauseMessage="" PauseMessageStyle="" PauseTitle="" ScreenStyle="">
+        <ScreenOption Sequence="1" Name="WaitForMessage" SelectOptionsImageLinkFieldExpression="ImageLink">
+          <Columns />
+          <LookupCollectionOption />
+        </ScreenOption>
+        <ScreenOption Sequence="2" Name="Target" SelectOptionsImageLinkFieldExpression="ImageLink">
+          <Columns />
+          <LookupCollectionOption />
+        </ScreenOption>
+      </Screen>
+    </Rule>
+    <Rule Namespace="UITesting" Ruleset="ExternalApplicationTestPage" ChildType="true" RuleTypeName="Set External Application" Caption="External application test page" ConditionExpression="" Enabled="true">
+      <RuleData>
+        <Tab Key="" DisplayName="ExternalApplicationSettingsTab">
+          <Properties Key="Url" DisplayName="Url">
+            <Property Key="Url" DisplayName="URL" Value="https://cfgdev.pcm.infor.com/interactiveweb/external-application-test-page.html" IsRequired="true" ExpressionType="Expression" SelectionType="Optional" SelectionSource="Threekit" />
+            <Property Key="TabName" DisplayName="Tab Caption" Value="Test Page" ExpressionType="Expression" SelectionType="None" />
+            <Property Key="WaitForMessage" DisplayName="Wait For Message" Value="=False" DefaultValue="=True" IsRequired="true" ExpressionType="Expression" SelectionType="Predefined" SelectionSource="BoolExpression" />
+          </Properties>
+        </Tab>
+        <Tab Key="" DisplayName="ExternalApplicationUrlParametersTab">
+          <List Key="UrlParameters" DisplayName="UrlParameters" AllowFiltering="true">
+            <Column Key="Name" IsRequired="true" />
+            <Column Key="Value" IsRequired="true" ExpressionType="Expression" />
+          </List>
+        </Tab>
+      </RuleData>
+    </Rule>
+    <Rule Namespace="UITesting" Ruleset="ExternalApplicationTestPage" ChildType="true" RuleTypeName="Variable" Caption="Create Data" ConditionExpression="" Enabled="true">
+      <vars>
+        <var id="48c45a75-f6e2-472e-b0f7-f802b6aee3d9" name="Data">
+          <value>=CreateSet()</value>
+        </var>
+        <var id="64cdf2d9-113c-4323-a781-77b1ef73d045" name="ScreenOptions">
+          <value>={}</value>
+        </var>
+        <var id="8dd97662-b1e1-415c-b39d-b52842e5a50b" name="TargetScreenOption">
+          <value>=CreateSet()</value>
+        </var>
+        <var id="bc4fd99b-118f-4570-bc44-63ad49452139" name="TargetScreenOption[&quot;id&quot;]">
+          <value>=Target.ScreenOptionId</value>
+        </var>
+        <var id="948a4bdb-5789-444a-b5b5-b8aa8e05f1e7" name="TargetScreenOption[&quot;name&quot;]">
+          <value>Target</value>
+        </var>
+        <var id="16877188-99e1-4955-bee5-711e3eba5840" name="TargetScreenOption[&quot;value&quot;]">
+          <value>=Target</value>
+        </var>
+        <var id="7ecb4b14-3f4b-4d3c-9472-313f60643707" name="ScreenOptions[0]">
+          <value>=TargetScreenOption</value>
+        </var>
+        <var id="2c195b0e-7f80-49f2-9d23-e61e2a2408ac" name="Data[&quot;screenOptions&quot;]">
+          <value>=ScreenOptions</value>
+        </var>
+      </vars>
+      <Rule Namespace="UITesting" Ruleset="ExternalApplicationTestPage" ChildType="true" RuleTypeName="Set External Application Data" Caption="Set Data" ConditionExpression="" Enabled="true">
+        <RuleData>
+          <Properties Key="Data" DisplayName="Data">
+            <Property Key="DataVariableName" DisplayName="Data Variable Name" Value="Data" SelectionType="Predefined" SelectionSource="ComponentAttributes" />
+          </Properties>
+        </RuleData>
+      </Rule>
+    </Rule>
+  </RuleTree>
+  <RuleTree Type="PostComponent" />
+  <RuleTree Type="PostConfiguration" />
+</Ruleset>
